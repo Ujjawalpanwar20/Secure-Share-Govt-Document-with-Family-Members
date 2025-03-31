@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Secure & Share Govt Document with Family Members
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+This project provides a secure and efficient way for citizens to store and share government documents such as mark sheets, PAN cards, passports, and other important documents digitally. The system is designed to reduce the risk of losing crucial documents by linking them with each member's Aadhaar number. Additionally, the project aims to cut government spending on physical document storage and management.
 
-## Available Scripts
+## Features
+- **User Authentication**: Secure login and registration with OTP verification.
+- **Document Management**: Upload, update, delete, and share documents securely.
+- **Profile Management**: Users can manage their profile details.
+- **Logging**: Every action performed by the user is logged for security and auditing purposes.
+- **Cloud-based Storage**: Documents are stored securely using Firebase.
+- **Cross-platform Accessibility**: The system works across different devices and platforms.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend & Database**: Firebase
+- **Logging**: JavaScript or Python logging libraries
 
-### `npm start`
+## Project Difficulty Level
+- **Medium**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Workflow
+1. **User Registration**: Users sign up with their Aadhaar-linked details.
+2. **OTP Verification**: Users verify their identity via OTP.
+3. **Login**: Users log in securely.
+4. **Document Upload**: Users upload their important documents.
+5. **Update/Delete Documents**: Users can modify or remove documents.
+6. **Document Sharing**: Users share documents securely with family members.
+7. **Profile Management**: Users can update personal information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
+The system can be deployed on cloud platforms, edge devices, or local environments, with proper system design justifications.
 
-### `npm test`
+## Code Requirements
+- Code should be modular, safe, testable, maintainable, and portable.
+- Follow coding standards and best practices.
+- Keep the GitHub repository public for transparency.
+- Maintain a proper README file explaining project execution and workflow.
+- Ensure logging for every action performed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Optimization
+- Optimize the solution at the **code level** and **architecture level**.
+- Justify all optimizations in the final submission.
+- Implement efficient data handling and retrieval mechanisms.
 
-### `npm run build`
+## Submission Requirements
+1. **GitHub Repository**: Submit the project code on GitHub and share the repo link.
+2. **Detailed Project Report**: Submit a comprehensive project report as per the given sample.
+3. **Testing & Evaluation**: Include test cases for various functionalities.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Conclusion
+This project aims to simplify document management for citizens while ensuring security, accessibility, and cost-effectiveness. By leveraging Firebase, the system ensures seamless storage and sharing of critical government documents.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
